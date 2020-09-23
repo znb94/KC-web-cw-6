@@ -1,71 +1,105 @@
-.bodybac {
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+}
+body {
   background-image: url(./background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.808);
-  margin: 0;
+  height: 100%;
+}
+/* ---------- في كل مطلوب display: flex يجب اضافة ---------- */
+/* ------------- فقط flex عدل على تحت تعليقات  ------------- */
+
+/* ---------------(الشريط الجانبي: المطلوب #1)-------------- */
+/* ---------------%اجعل الشريط الجانبي بطول 100------------- */
+.side-bar {
+  /* flex */
 }
 
-/* ----------------------العنوان-------------------------- */
+/* ------------------(العنوان: المطلوب #2)------------------ */
+/* ------------------%اجعل العنوان بعرض 100----------------- */
+.header {
+  /* flex */
+}
+/* ------------------(العنوان: المطلوب #2)------------------ */
+/* --اجعل العناصر (المنيو، معرفة المزيد، تواصل) تظهر بالنص-- */
 
-/* قم بتغيير عرض الناف بار حسب الصورة  */
 .navbar {
-  padding: 0;
-  margin: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding-bottom: 10px;
+  /* flex */
 }
-
-.head-ul {
-}
-
 .head-a {
-  text-decoration: none;
   font-size: 20px;
+  color: white;
+  text-decoration: none;
 }
 .title {
   text-align: center;
-  margin: 0;
 }
-/* استعمل الهوامش او الحواشي لتعديل الشكل  */
 .head-li {
+  display: inline;
+  padding: 15px;
 }
 
-/* -----------------------المحتوى---------------------------- */
+/* ------------------(المحتوى: المطلوب #2)------------------ */
+/* ------------اجعل جميع عناصر المنيو تظهر بالنص------------ */
+/* ------------------------(Bonus 😍)------------------------ */
+/* -------اجعل المسافة بين العناصر متساوية نفس الصورة------- */
 
 .menu {
   display: block;
   background-color: rgb(255, 255, 255);
+  padding: 25px;
+  height: 600px;
+  width: 700px;
   margin-top: 50px;
-  padding-left: 50px;
-  padding-right: 20px;
-  padding-top: 30px;
-  height: 500px;
+  border-radius: 20px;
+  /* flex */
+}
+.imgs {
+  display: flex;
+  flex-wrap: wrap;
 }
 img {
-  width: 100px;
-  height: 100px;
-  margin-left: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 20px;
+  margin: 10px;
 }
 
 .menu-title {
   display: block;
 }
 
-/* ------------------------الشريط الجانبي--------------------- */
-/* --------------------200px اجعل عرض الشريط------------------ */
 .sidebar {
   width: 200px;
+  height: 100%;
   background-color: rgba(255, 255, 255, 0.74);
   border-radius: 20px;
 }
 .side-a {
+  text-decoration: none;
+  color: black;
 }
-
 .side-ul {
   margin-left: 40px;
+  align-self: center;
+  justify-content: center;
 }
 h2 {
   margin-right: 25px;
 }
+p {
+  text-align: center;
+}
 .side-li {
+  padding: 10px;
+  list-style-type: none;
 }
