@@ -1,12 +1,12 @@
 <p dir="rtl">
-<h3><a href="https://github.com/kuwaitcodes/web-cw-5">تمرين </a></h3></p>
+<h3><a href="https://github.com/kuwaitcodes/KC-web-cw-5">تمرين </a></h3></p>
 
 
 <p dir="rtl">
 بالتمرين راح نسوي موقع يصنف الدرجات 🔠</p>
 <h1></h1>
 <p dir="rtl">
- <strong><a href="https://docs.google.com/document/d/1Kbx2KDfW98IgxbKZ_6U-GMZ0rTvh1UkWObAiDO7GKLk/edit">الجزء الاول</a></strong></p>
+ <strong>الجزء الاول</strong></p>
 
 
 
@@ -29,7 +29,7 @@
 <h1></h1>
 
 <p dir="rtl">
- <strong><a href="https://docs.google.com/document/d/1a3LRJ7DyMP6cY1RQ1_OtIDAFKbDOmVa2RygyX_DyINc/edit">الجزء الثاني</a></strong></p>
+ <strong>الجزء الثاني</strong></p>
 
   1. قم بإستخدام المتغير grade الذي انشأته في الجزء الاول من التمرين
   2. استخدم if statement لطباعة تقدير الطالب بناءً على المقياس التالي:
